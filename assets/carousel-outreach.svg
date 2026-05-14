@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="520" viewBox="0 0 760 520">
+  <rect width="760" height="520" rx="18" fill="#f8ecd2"/>
+  <rect x="56" y="52" width="648" height="416" rx="18" fill="#fff"/>
+  <rect x="94" y="96" width="250" height="328" rx="14" fill="#17442e"/>
+  <rect x="382" y="96" width="284" height="328" rx="14" fill="#f4f7f1"/>
+  <text x="126" y="148" fill="#fff" font-family="Arial" font-size="24" font-weight="800">Outreach Draft</text>
+  <g fill="#d8f3dc">
+    <rect x="126" y="192" width="166" height="12" rx="6"/>
+    <rect x="126" y="226" width="186" height="12" rx="6"/>
+    <rect x="126" y="260" width="142" height="12" rx="6"/>
+  </g>
+  <rect x="126" y="332" width="128" height="42" rx="8" fill="#ff765f"/>
+  <text x="420" y="148" fill="#17211b" font-family="Arial" font-size="22" font-weight="800">Personalization</text>
+  <g fill="#9ab7a5">
+    <rect x="420" y="192" width="190" height="12" rx="6"/>
+    <rect x="420" y="226" width="154" height="12" rx="6"/>
+    <rect x="420" y="260" width="204" height="12" rx="6"/>
+    <rect x="420" y="294" width="168" height="12" rx="6"/>
+  </g>
+  <circle cx="604" cy="360" r="34" fill="#f6c95f"/>
+</svg>

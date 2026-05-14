@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="520" viewBox="0 0 760 520">
+  <rect width="760" height="520" rx="18" fill="#eef5ef"/>
+  <rect x="54" y="52" width="652" height="416" rx="18" fill="#fff"/>
+  <text x="92" y="104" fill="#17211b" font-family="Arial" font-size="24" font-weight="800">Weekly Reporting</text>
+  <rect x="92" y="142" width="160" height="94" rx="14" fill="#d8f3dc"/>
+  <rect x="300" y="142" width="160" height="94" rx="14" fill="#dcecff"/>
+  <rect x="508" y="142" width="160" height="94" rx="14" fill="#f8ecd2"/>
+  <g font-family="Arial" font-weight="800" fill="#17442e">
+    <text x="124" y="198" font-size="34">87%</text>
+    <text x="332" y="198" font-size="34">4.8k</text>
+    <text x="540" y="198" font-size="34">31</text>
+  </g>
+  <rect x="92" y="286" width="576" height="116" rx="14" fill="#f4f7f1"/>
+  <path d="M126 360c54-70 110-38 156-68 54-36 86 48 136 6 52-44 98-22 154 24" fill="none" stroke="#2f6d48" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="572" cy="322" r="16" fill="#ff765f"/>
+</svg>

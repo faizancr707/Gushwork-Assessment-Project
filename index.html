@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Responsive vanilla HTML, CSS, and JavaScript assessment page with sticky header and zoom carousel."
+    />
+    <title>Gushwork | AI Operations Studio</title>
+    <link rel="preload" href="assets/hero-workspace.svg" as="image" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header" data-sticky-header>
+      <div class="announcement">
+        <p>Scale research, outreach, and admin workflows with AI-assisted operators.</p>
+        <a href="#demo">Book a demo</a>
+      </div>
+    </header>
+
+    <nav class="primary-nav" aria-label="Primary navigation">
+      <a class="brand" href="#" aria-label="Gushwork home">
+        <span class="brand-mark" aria-hidden="true">G</span>
+        <span>Gushwork</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+        <span class="sr-only">Toggle navigation</span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </button>
+
+      <div class="nav-links" id="nav-links" data-nav-menu>
+        <a href="#workflow">Workflow</a>
+        <a href="#showcase">Showcase</a>
+        <a href="#results">Results</a>
+        <a href="#demo">Contact</a>
+      </div>
+    </nav>
+
+    <main id="main-content">
+      <section class="hero section-shell" id="workflow">
+        <div class="hero-copy">
+          <p class="eyebrow">AI operations studio</p>
+          <h1>Delegate repeatable growth work to an always-on team.</h1>
+          <p class="hero-text">
+            Gushwork blends trained operators with reliable AI systems so teams can move
+            faster on prospect research, campaign prep, CRM upkeep, and market mapping.
+          </p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button button-primary" href="#demo">Start a project</a>
+            <a class="button button-secondary" href="#showcase">View workflow</a>
+          </div>
+          <dl class="hero-stats" aria-label="Performance highlights">
+            <div>
+              <dt>42%</dt>
+              <dd>less manual ops time</dd>
+            </div>
+            <div>
+              <dt>18k</dt>
+              <dd>records enriched weekly</dd>
+            </div>
+            <div>
+              <dt>24h</dt>
+              <dd>typical launch window</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="hero-media" aria-label="Operations dashboard preview">
+          <img
+            src="assets/hero-workspace.svg"
+            alt="Illustrated dashboard showing research tasks, enrichment data, and workflow status"
+            width="720"
+            height="560"
+          />
+        </div>
+      </section>
+
+      <section class="trust-band" aria-label="Trusted by teams">
+        <span>Pipeline teams</span>
+        <span>Founder-led sales</span>
+        <span>Recruiting ops</span>
+        <span>Market research</span>
+      </section>
+
+      <section class="showcase section-shell" id="showcase" aria-labelledby="showcase-title">
+        <div class="section-heading">
+          <p class="eyebrow">Interactive carousel</p>
+          <h2 id="showcase-title">Inspect every step before it ships.</h2>
+          <p>
+            Move through the workflow snapshots, then hover or focus an image to see a
+            close-up preview with smooth zoom behavior.
+          </p>
+        </div>
+
+        <div class="carousel" data-carousel>
+          <div class="carousel-stage">
+            <button class="icon-button carousel-control" type="button" data-carousel-prev aria-label="Previous image">
+              <span aria-hidden="true">&#8592;</span>
+            </button>
+
+            <figure class="active-card" data-zoom-source tabindex="0">
+              <img
+                data-carousel-image
+                src="assets/carousel-research.svg"
+                alt="Research queue with qualified leads and account notes"
+                width="760"
+                height="520"
+              />
+              <figcaption>
+                <span data-carousel-kicker>Step 01</span>
+                <strong data-carousel-title>Lead research queue</strong>
+                <small data-carousel-caption>Verified accounts are grouped by segment and buying signal.</small>
+              </figcaption>
+            </figure>
+
+            <button class="icon-button carousel-control" type="button" data-carousel-next aria-label="Next image">
+              <span aria-hidden="true">&#8594;</span>
+            </button>
+          </div>
+
+          <aside class="zoom-preview" data-zoom-preview aria-live="polite">
+            <span class="zoom-label">Zoom preview</span>
+            <img
+              data-zoom-image
+              src="assets/carousel-research.svg"
+              alt=""
+              width="520"
+              height="360"
+            />
+          </aside>
+
+          <div class="thumbnail-row" role="tablist" aria-label="Workflow images">
+            <button
+              class="thumbnail is-active"
+              type="button"
+              role="tab"
+              aria-selected="true"
+              data-carousel-thumb
+              data-index="0"
+            >
+              <img src="assets/carousel-research.svg" alt="" width="140" height="96" />
+              <span>Research</span>
+            </button>
+            <button class="thumbnail" type="button" role="tab" aria-selected="false" data-carousel-thumb data-index="1">
+              <img src="assets/carousel-enrichment.svg" alt="" width="140" height="96" />
+              <span>Enrich</span>
+            </button>
+            <button class="thumbnail" type="button" role="tab" aria-selected="false" data-carousel-thumb data-index="2">
+              <img src="assets/carousel-outreach.svg" alt="" width="140" height="96" />
+              <span>Outreach</span>
+            </button>
+            <button class="thumbnail" type="button" role="tab" aria-selected="false" data-carousel-thumb data-index="3">
+              <img src="assets/carousel-reporting.svg" alt="" width="140" height="96" />
+              <span>Report</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="feature-grid section-shell" id="results" aria-labelledby="results-title">
+        <div class="section-heading">
+          <p class="eyebrow">Built for review</p>
+          <h2 id="results-title">A page that demonstrates production judgment.</h2>
+        </div>
+
+        <article>
+          <span aria-hidden="true">01</span>
+          <h3>Semantic structure</h3>
+          <p>Landmarks, headings, lists, alt text, labels, and focus states keep the page usable beyond visuals.</p>
+        </article>
+        <article>
+          <span aria-hidden="true">02</span>
+          <h3>Responsive polish</h3>
+          <p>Layout, type, and controls adapt cleanly across desktop, tablet, and compact mobile screens.</p>
+        </article>
+        <article>
+          <span aria-hidden="true">03</span>
+          <h3>Purposeful motion</h3>
+          <p>Sticky header, carousel transitions, and zoom effects feel smooth while respecting reduced motion.</p>
+        </article>
+      </section>
+
+      <section class="contact-band" id="demo" aria-labelledby="demo-title">
+        <div>
+          <p class="eyebrow">Ready when you are</p>
+          <h2 id="demo-title">Launch a cleaner operations workflow this week.</h2>
+        </div>
+        <a class="button button-primary" href="mailto:hello@gushwork.ai">Book a demo</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Gushwork assessment build. <b>FAIZAN ALAM</b></p>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>

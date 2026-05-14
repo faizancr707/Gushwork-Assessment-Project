@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="520" viewBox="0 0 760 520">
+  <rect width="760" height="520" rx="18" fill="#d8f3dc"/>
+  <rect x="52" y="52" width="656" height="416" rx="18" fill="#fff"/>
+  <text x="88" y="102" fill="#17211b" font-family="Arial" font-size="24" font-weight="800">Enrichment Review</text>
+  <rect x="88" y="138" width="250" height="286" rx="14" fill="#f4f7f1"/>
+  <rect x="374" y="138" width="248" height="286" rx="14" fill="#f8ecd2"/>
+  <g fill="#2f6d48">
+    <rect x="118" y="176" width="138" height="14" rx="7"/>
+    <rect x="404" y="176" width="126" height="14" rx="7"/>
+  </g>
+  <g fill="#9ab7a5">
+    <rect x="118" y="218" width="176" height="12" rx="6"/>
+    <rect x="118" y="254" width="142" height="12" rx="6"/>
+    <rect x="118" y="290" width="188" height="12" rx="6"/>
+    <rect x="118" y="326" width="120" height="12" rx="6"/>
+    <rect x="404" y="218" width="172" height="12" rx="6"/>
+    <rect x="404" y="254" width="148" height="12" rx="6"/>
+    <rect x="404" y="290" width="184" height="12" rx="6"/>
+  </g>
+  <path d="M334 284h72" stroke="#ff765f" stroke-width="12" stroke-linecap="round"/>
+  <path d="m386 260 28 24-28 24" fill="none" stroke="#ff765f" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
